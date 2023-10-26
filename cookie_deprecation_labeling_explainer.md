@@ -30,7 +30,7 @@ Set-Cookie: receive-cookie-deprecation=1; Secure; HttpOnly; Path=/; SameSite=Non
 
 Notably, this means that on first visit to a new top-level site, the initial subresource loads to an origin will not carry the label header.
 
-The Secure, HttpOnly, SameSite, and Partitioned cookie attributes are mandatory. The other attributes: Domain, Expires, and Max-Age may be set as desired.
+The Secure, HttpOnly, SameSite, and Partitioned cookie attributes are mandatory. The other attributes: Domain, Expires, Path, and Max-Age may be set as desired.
 
 ## JS Access
 
